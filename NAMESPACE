@@ -6,8 +6,6 @@ importFrom("stats", "aggregate", "approxfun", "binomial", "coef",
            "sd")
 importFrom("utils", "read.csv", "read.table", "write.table")
 importFrom("glmnet", "glmnet", "cv.glmnet")
-importFrom("RMySQL", "dbConnect", "dbDisconnect",
-           "MySQL", "dbSendQuery", "dbFetch", "dbClearResult")
 export(PhecapData)
 export(PhecapSurrogate)
 export(phecap_generate_dictionary_file)
